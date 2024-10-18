@@ -11,20 +11,21 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "id": 3,
-    "name": "James",
-    "email": "James@mail.com" 
+    "id": 2,
+    "name": "Juan",
+    "email": "Juan@example.com" 
 }
 
-### PUT en un usuario
-PUT http://localhost:3000/users/3
+### UPDATE un usuario con ID
+PUT http://localhost:3000/users/7
 Content-Type: application/json
 
 {
-    "id": 1,
-    "name": "James",
-    "email": "James@mail.com" 
+    "id": 3,
+    "name": "Jamas Rodriguez",
+    "email": "James@mail.gov" 
 }
 
-### DELETE un usuario
-DELETE http://localhost:3000/users/1
+### DELETE un usuario,  node src/app.js
+DELETE http://localhost:3000/users/234234
+
